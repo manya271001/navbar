@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/cf/05/31/cf0531b6c53e2fc6c33819808ac568be.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    height: 80px;
+}
+.hero .navbar .image{
+    height: 80px;
+}
+.hero .navbar h1{
+    margin-left: 0px;
+}
+.hero .navbar ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+.hero .navbar ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+.hero .navbar ul li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.hero .navbar .icons{
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+}
+
